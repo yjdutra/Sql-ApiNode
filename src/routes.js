@@ -1,7 +1,14 @@
-const express = require('express');
+const express = require("express");
+
+const BootCampController = require("./controllers/BootCampController");
 
 const routes = express.Router();
 
-routes.get('/', (req,res) => {
-    return res.json{{'hello world'}}
-})
+routes.post("/bootcamp", BootCampController.store);
+routes.get("/bootcamp", BootCampController.show);
+
+routes.get("/bootcamp/:id", BootCampController.index);
+routes.put("/bootcamp/:id", BootCampController.update);
+routes.delete("/bootcamp/:id", BootCampController.delete);
+
+module.exports = routes;
