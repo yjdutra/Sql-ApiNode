@@ -1,3 +1,7 @@
+<h1 align="center"> API SQL Postegress via SEQUELIZE em Node.js </h1>
+
+Descrição: API basica, pronta e já configurada para rodar local rapidamente e de simples modificações.
+
 ⚠️ Para rodar o banco SqlPostgre ⚠️
 
      1️ Instale o docker.
@@ -27,17 +31,10 @@
 
 ⚠️ Procedimento para criar parametros ⚠️
 
-1️⃣ Cria migration              5️⃣ Importa e inicia conexão no src/database/index.js
-2️⃣ Escreve migration           6️⃣ Cria a rota (EndPoint)
-3️⃣ Roda migration              7️⃣ Cria controller
-4️⃣ Cria um model
-
-
-🗂️ Metodos dos COntrollers 🗂️
-
-1️⃣ Store = Criar
-2️⃣ Show = Retornar toda collection
-3️⃣ Index = Busca item da collection pelo id
-4️⃣ Updade = Atualizar informações
-5️⃣ Delete = Deletar, (Sempre pela PrimaryKey)
-6️⃣ Associate = Associa dois parametros (provavelmente corresponde a uma associação N:N)
+1️⃣ Cria migration <br/>             
+2️⃣ Escreve migration <br/>          
+3️⃣ Roda migration        <br/>
+4️⃣ Cria um model<br/>
+5️⃣ Importa e inicia conexão no src/database/index.js<br/>
+6️⃣ Cria a rota (EndPoint)<br/>
+7️⃣ Cria controller
